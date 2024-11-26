@@ -144,6 +144,7 @@ func (c *Client) Complete(ctx context.Context, o *codec.Op, key tezos.Key) error
 		o.WithBranch(hash)
 	}
 
+	/// ignore counter
 	//if needCounter || mayNeedReveal {
 	//	// fetch current state
 	//	state, err := c.GetContractExt(ctx, key.Address(), Head)
