@@ -1,0 +1,64 @@
+// Copyright (c) 2018 - 2023 Blockwatch Data Inc.
+// Author: alex@blockwatch.cc
+
+package hash
+
+import (
+	"encoding/binary"
+)
+
+// Hash64 computes the FNV-1a hash of buf.
+func Hash64(buf []byte) uint64 {
+	hash := uint64(offset64)
+	for _, c := range buf {
+		hash ^= uint64(c)
+		hash *= prime64
+	}
+	return hash
+}
+
+// from stdlib hash/fnv/fnv.go
+const (
+	prime64  = 1099511628211
+	offset64 = 14695981039346656037
+)
+
+// InlineFNV64a is an alloc-free port of the standard library's fnv64a.
+// See https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function
+type InlineFNV64a uint64
+
+// NewInlineFNV64a returns a new instance of InlineFNV64a.
+func NewInlineFNV64a() InlineFNV64a {
+	return offset64
+}
+
+// Write adds data to the running hash.
+func (s *InlineFNV64a) Write(data []byte) (int, error) {
+	hash := uint64(*s)
+	for _, c := range data {
+		hash ^= uint64(c)
+		hash *= prime64
+	}
+	*s = InlineFNV64a(hash)
+	return len(data), nil
+}
+
+// Write adds data to the running hash.
+func (s *InlineFNV64a) WriteString(data string) (int, error) {
+	return s.Write([]byte(data))
+}
+
+// Sum64 returns the uint64 of the current resulting hash.
+func (s *InlineFNV64a) Sum64() uint64 {
+	return uint64(*s)
+}
+
+func (s *InlineFNV64a) Sum() []byte {
+	var buf [8]byte
+	binary.BigEndian.PutUint64(buf[:], s.Sum64())
+	return buf[:]
+}
+
+func (s *InlineFNV64a) Reset() {
+	*s = offset64
+}
