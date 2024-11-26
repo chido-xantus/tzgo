@@ -6,8 +6,8 @@ package compose
 import (
 	"crypto/ed25519"
 
-	"blockwatch.cc/tzgo/tezos"
 	"github.com/tyler-smith/go-bip32"
+	"github.com/tzgo/tezos"
 )
 
 func (c *Context) MakeAccount(id int, alias string) (Account, error) {

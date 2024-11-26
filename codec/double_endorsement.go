@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // DoubleEndorsementEvidence represents "double_endorsement_evidence" operation

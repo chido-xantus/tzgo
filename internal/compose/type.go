@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/tezos"
 )
 
 func ParseValue(typ micheline.OpCode, value string) (any, error) {

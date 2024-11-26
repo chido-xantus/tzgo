@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // Delegation represents "delegation" operation

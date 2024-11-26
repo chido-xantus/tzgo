@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"blockwatch.cc/tzgo/contract/ast"
-	"blockwatch.cc/tzgo/micheline"
 	"github.com/pkg/errors"
+	"github.com/tzgo/contract/ast"
+	"github.com/tzgo/micheline"
 )
 
 func Parse(raw []byte, name string) (*ast.Contract, []*ast.Struct, error) {

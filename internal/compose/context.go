@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"strings"
 
-	"blockwatch.cc/tzgo/codec"
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/rpc"
-	"blockwatch.cc/tzgo/tezos"
 	"github.com/echa/log"
+	"github.com/tzgo/codec"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/rpc"
+	"github.com/tzgo/tezos"
 )
 
 type Engine interface {

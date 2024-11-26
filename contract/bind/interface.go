@@ -1,11 +1,11 @@
 package bind
 
 import (
-	"blockwatch.cc/tzgo/contract"
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/rpc"
-	"blockwatch.cc/tzgo/tezos"
 	"context"
+	"github.com/tzgo/contract"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/rpc"
+	"github.com/tzgo/tezos"
 )
 
 type Contract interface {

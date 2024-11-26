@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // SmartRollupRecoverBond represents "smart_rollup_recover_bond" operation

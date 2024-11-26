@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"strconv"
 
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/tezos"
 )
 
 // TransferTicket represents "transfer_ticket" operation

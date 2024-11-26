@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"blockwatch.cc/tzgo/contract/bind"
-	"blockwatch.cc/tzgo/internal/compose"
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/tezos"
 	"github.com/pkg/errors"
+	"github.com/tzgo/contract/bind"
+	"github.com/tzgo/internal/compose"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/tezos"
 )
 
 func ParseScript(ctx compose.Context, task Task) (*micheline.Script, error) {

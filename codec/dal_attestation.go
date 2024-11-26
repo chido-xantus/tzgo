@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // DalAttestation represents "dal_attestation" operation

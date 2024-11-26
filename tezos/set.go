@@ -4,7 +4,7 @@
 package tezos
 
 import (
-	"blockwatch.cc/tzgo/hash"
+	"github.com/tzgo/hash"
 )
 
 type AddressSet struct {

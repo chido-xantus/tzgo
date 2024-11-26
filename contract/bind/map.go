@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"time"
 
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/tezos"
 	"github.com/pkg/errors"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/tezos"
 )
 
 // Map is a map type used to interact with Tezos smart contracts.

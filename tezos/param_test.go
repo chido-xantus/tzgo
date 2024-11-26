@@ -3,8 +3,8 @@ package tezos_test
 import (
 	"testing"
 
-	"blockwatch.cc/tzgo/rpc"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/rpc"
+	"github.com/tzgo/tezos"
 )
 
 type (

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"text/template"
 
-	"blockwatch.cc/tzgo/contract/ast"
 	"github.com/iancoleman/strcase"
+	"github.com/tzgo/contract/ast"
 )
 
 var funcMap = template.FuncMap{

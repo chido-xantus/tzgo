@@ -4,9 +4,9 @@
 package task
 
 import (
-	"blockwatch.cc/tzgo/internal/compose"
-	"blockwatch.cc/tzgo/internal/compose/alpha"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/internal/compose"
+	"github.com/tzgo/internal/compose/alpha"
+	"github.com/tzgo/tezos"
 
 	"github.com/pkg/errors"
 )

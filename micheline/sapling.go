@@ -10,7 +10,7 @@ import (
 // "encoding/json"
 // "fmt"
 // "math/big"
-// "blockwatch.cc/tzgo/tezos"
+// "github.com/tzgo/tezos"
 )
 
 type SaplingDiffElem struct {

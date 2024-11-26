@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/rpc"
 	"github.com/pkg/errors"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/rpc"
 )
 
 // Bigmap is a handle to a Tezos bigmap.

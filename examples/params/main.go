@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"blockwatch.cc/tzgo/rpc"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/rpc"
+	"github.com/tzgo/tezos"
 )
 
 var (

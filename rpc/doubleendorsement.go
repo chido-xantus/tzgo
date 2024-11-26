@@ -4,7 +4,7 @@
 package rpc
 
 import (
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // Ensure DoubleEndorsement implements the TypedOperation interface.

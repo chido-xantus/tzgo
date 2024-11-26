@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // SmartRollupTimeout represents "smart_rollup_timeout" operation

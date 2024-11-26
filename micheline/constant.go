@@ -4,7 +4,7 @@
 package micheline
 
 import (
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 type ConstantDict map[string]Prim

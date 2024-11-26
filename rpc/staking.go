@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 type StakingParameters struct {

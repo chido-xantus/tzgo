@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"blockwatch.cc/tzgo/codec"
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/signer"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/codec"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/signer"
+	"github.com/tzgo/tezos"
 )
 
 const ExtraSafetyMargin int64 = 100 // used to adjust gas and storage estimations

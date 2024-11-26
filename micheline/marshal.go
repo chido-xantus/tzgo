@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 type PrimMarshaler interface {

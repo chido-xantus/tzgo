@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // DoubleBakingEvidence represents "double_baking_evidence" operation

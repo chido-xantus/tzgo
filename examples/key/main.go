@@ -29,7 +29,7 @@ import (
 	"strings"
 	"syscall"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 	"golang.org/x/term"
 )
 

@@ -6,9 +6,9 @@ package alpha
 import (
 	"fmt"
 
-	"blockwatch.cc/tzgo/codec"
-	"blockwatch.cc/tzgo/internal/compose"
-	"blockwatch.cc/tzgo/rpc"
+	"github.com/tzgo/codec"
+	"github.com/tzgo/internal/compose"
+	"github.com/tzgo/rpc"
 )
 
 type TaskBuilder interface {

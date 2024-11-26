@@ -1,9 +1,9 @@
 package bind
 
 import (
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/tezos"
 	"github.com/pkg/errors"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/tezos"
 	"math/big"
 	"reflect"
 	"time"

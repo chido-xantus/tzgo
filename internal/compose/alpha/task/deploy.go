@@ -6,12 +6,12 @@ package task
 import (
 	"fmt"
 
-	"blockwatch.cc/tzgo/codec"
-	"blockwatch.cc/tzgo/internal/compose"
-	"blockwatch.cc/tzgo/internal/compose/alpha"
-	"blockwatch.cc/tzgo/rpc"
-	"blockwatch.cc/tzgo/signer"
 	"github.com/pkg/errors"
+	"github.com/tzgo/codec"
+	"github.com/tzgo/internal/compose"
+	"github.com/tzgo/internal/compose/alpha"
+	"github.com/tzgo/rpc"
+	"github.com/tzgo/signer"
 )
 
 var _ alpha.TaskBuilder = (*DeployTask)(nil)

@@ -1,9 +1,9 @@
 package bind
 
 import (
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/tezos"
 	"github.com/stretchr/testify/require"
+	"github.com/tzgo/micheline"
+	"github.com/tzgo/tezos"
 	"math/big"
 	"reflect"
 	"testing"

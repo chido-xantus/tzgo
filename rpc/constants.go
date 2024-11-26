@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // Constants represents only a limited subset of Tezos chain configuration params

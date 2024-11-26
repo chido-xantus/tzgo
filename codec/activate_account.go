@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 )
 
 // ActivateAccount represents "activate_account" operation

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"blockwatch.cc/tzgo/micheline"
-	m "blockwatch.cc/tzgo/micheline"
+	"github.com/tzgo/micheline"
+	m "github.com/tzgo/micheline"
 )
 
 func main() {

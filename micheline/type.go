@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/tzgo/tezos"
 	"golang.org/x/exp/slices"
 )
 
