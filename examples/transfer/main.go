@@ -11,11 +11,11 @@ import (
 	"os"
 	"strconv"
 
+	"blockwatch.cc/tzgo/codec"
+	"blockwatch.cc/tzgo/rpc"
+	"blockwatch.cc/tzgo/signer"
+	"blockwatch.cc/tzgo/tezos"
 	"github.com/echa/log"
-	"github.com/tzgo/codec"
-	"github.com/tzgo/rpc"
-	"github.com/tzgo/signer"
-	"github.com/tzgo/tezos"
 )
 
 var (

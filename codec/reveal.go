@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Reveal represents "reveal" operation

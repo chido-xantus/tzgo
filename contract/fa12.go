@@ -8,10 +8,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tzgo/codec"
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/rpc"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/codec"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/rpc"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Represents a generic FA1 (tzip5) or FA1.2 (tzip7) token

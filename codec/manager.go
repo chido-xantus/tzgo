@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Simple is an empty helper struct that's used to fulfil the Operation interface

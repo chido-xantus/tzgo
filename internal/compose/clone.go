@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 type CloneMode byte

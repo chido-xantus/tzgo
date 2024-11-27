@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/tzgo/base58"
+	"blockwatch.cc/tzgo/base58"
 )
 
 var (

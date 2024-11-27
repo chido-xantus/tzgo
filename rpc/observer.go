@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // WIP: interface may change

@@ -6,7 +6,7 @@ package alpha
 import (
 	"bytes"
 
-	"github.com/tzgo/internal/compose"
+	"blockwatch.cc/tzgo/internal/compose"
 	"gopkg.in/yaml.v3"
 )
 

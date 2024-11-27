@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Origination represents "origination" operation

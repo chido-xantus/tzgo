@@ -6,13 +6,13 @@ package task
 import (
 	"fmt"
 
-	"github.com/tzgo/codec"
-	"github.com/tzgo/contract"
-	"github.com/tzgo/internal/compose"
-	"github.com/tzgo/internal/compose/alpha"
-	"github.com/tzgo/rpc"
-	"github.com/tzgo/signer"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/codec"
+	"blockwatch.cc/tzgo/contract"
+	"blockwatch.cc/tzgo/internal/compose"
+	"blockwatch.cc/tzgo/internal/compose/alpha"
+	"blockwatch.cc/tzgo/rpc"
+	"blockwatch.cc/tzgo/signer"
+	"blockwatch.cc/tzgo/tezos"
 
 	"github.com/pkg/errors"
 )

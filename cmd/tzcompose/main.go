@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tzgo/internal/compose"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/internal/compose"
+	"blockwatch.cc/tzgo/tezos"
 
-	_ "github.com/tzgo/internal/compose/alpha"
-	_ "github.com/tzgo/internal/compose/alpha/task"
+	_ "blockwatch.cc/tzgo/internal/compose/alpha"
+	_ "blockwatch.cc/tzgo/internal/compose/alpha/task"
 )
 
 var (

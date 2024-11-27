@@ -4,7 +4,7 @@
 package rpc
 
 import (
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Ensure Activation implements the TypedOperation interface.

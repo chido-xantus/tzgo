@@ -1,4 +1,4 @@
-module github.com/tzgo
+module blockwatch.cc/tzgo
 
 go 1.18
 

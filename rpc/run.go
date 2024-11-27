@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tzgo/codec"
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/signer"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/codec"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/signer"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 const ExtraSafetyMargin int64 = 100 // used to adjust gas and storage estimations
@@ -144,7 +144,16 @@ func (c *Client) Complete(ctx context.Context, o *codec.Op, key tezos.Key) error
 		o.WithBranch(hash)
 	}
 
-	/// ignore counter
+	reveal := &codec.Reveal{
+		Manager: codec.Manager{
+			Source: key.Address(),
+		},
+		PublicKey: key,
+	}
+	reveal.WithLimits(DefaultRevealLimits)
+	o.WithContentsFront(reveal)
+
+	///// ignore counter
 	//if needCounter || mayNeedReveal {
 	//	// fetch current state
 	//	state, err := c.GetContractExt(ctx, key.Address(), Head)

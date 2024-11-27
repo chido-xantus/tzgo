@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // UnparsingMode defines the way types and values are represented in Micheline script

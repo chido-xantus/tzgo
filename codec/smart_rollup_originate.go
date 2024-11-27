@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // SmartRollupOriginate represents "smart_rollup_originate" operation

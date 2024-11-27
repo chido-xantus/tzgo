@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tzgo/micheline"
+	"blockwatch.cc/tzgo/micheline"
 )
 
 const (

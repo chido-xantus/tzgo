@@ -11,7 +11,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 type Script struct {

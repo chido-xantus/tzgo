@@ -10,12 +10,12 @@ import (
 	"math/big"
 	"time"
 
+	"blockwatch.cc/tzgo/contract"
+	"blockwatch.cc/tzgo/contract/bind"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/rpc"
+	"blockwatch.cc/tzgo/tezos"
 	"github.com/pkg/errors"
-	"github.com/tzgo/contract"
-	"github.com/tzgo/contract/bind"
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/rpc"
-	"github.com/tzgo/tezos"
 )
 
 // Hello is a generated binding to a Tezos smart contract.

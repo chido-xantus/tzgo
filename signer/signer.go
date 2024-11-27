@@ -6,8 +6,8 @@ package signer
 import (
 	"context"
 
-	"github.com/tzgo/codec"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/codec"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 type Signer interface {

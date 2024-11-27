@@ -4,8 +4,8 @@
 package rpc
 
 import (
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Ensure Origination implements the TypedOperation interface.

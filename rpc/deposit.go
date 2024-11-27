@@ -4,7 +4,7 @@
 package rpc
 
 import (
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Ensure SetDepositsLimit implements the TypedOperation interface.

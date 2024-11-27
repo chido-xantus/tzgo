@@ -10,8 +10,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // TODO: fetch dynamic from /chains/main/mempool/filter

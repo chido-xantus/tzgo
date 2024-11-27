@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"strconv"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // RegisterGlobalConstant represents "register_global_constant" operation

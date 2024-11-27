@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 const (

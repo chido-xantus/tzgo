@@ -11,8 +11,8 @@ import (
 
 	"github.com/echa/bson"
 
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // lacking the algorithm to compute KT1 addresses from content,

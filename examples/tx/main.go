@@ -19,12 +19,12 @@ import (
 	"strconv"
 	"strings"
 
+	"blockwatch.cc/tzgo/codec"
+	"blockwatch.cc/tzgo/rpc"
+	"blockwatch.cc/tzgo/signer"
+	"blockwatch.cc/tzgo/signer/remote"
+	"blockwatch.cc/tzgo/tezos"
 	"github.com/echa/log"
-	"github.com/tzgo/codec"
-	"github.com/tzgo/rpc"
-	"github.com/tzgo/signer"
-	"github.com/tzgo/signer/remote"
-	"github.com/tzgo/tezos"
 )
 
 var (

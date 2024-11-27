@@ -4,8 +4,8 @@
 package rpc
 
 import (
-	"github.com/tzgo/micheline"
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/micheline"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // Ensure ConstantRegistration implements the TypedOperation interface.

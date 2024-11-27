@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/tzgo/tezos"
+	"blockwatch.cc/tzgo/tezos"
 )
 
 // BlockHeader represents a Tenderbake compatible block header
